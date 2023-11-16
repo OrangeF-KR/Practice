@@ -2,7 +2,7 @@
 
 from collections import deque
 
-n, m, v = map(int, input().split()) # n: 정점의 개수 / m: 간선의 개수 / v: 시작 정점 번호
+n, m, v = map(int, input().split())
 graph = [[False] * (n+1) for _ in range(n+1)] # 초기값 False인 함수 설정
 
 for i in range(m):
